@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction : column;
+    gap : 200px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculator{
+    background-color: black;
+    min-width: 480px;
+    min-height: 640px;
+    border-radius: 3%;
+    border: 30px;
+}
+
+.display{
+    background-color: whitesmoke;
+    text-align: end;
+    font-size: 64px;
+    
+    /* margin: 20px; */
+}
